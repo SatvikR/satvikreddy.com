@@ -9,7 +9,7 @@ export const Intro: React.FC = () => {
       Area. Currently, my favorite technologies are{" "}
       <StyledLink href="https://golang.org/">Golang</StyledLink>,{" "}
       <StyledLink href="https://www.typescriptlang.org/">Typescript</StyledLink>
-      <StyledLink href="https://graphql.org">GraphQL</StyledLink>,{" "}
+      , <StyledLink href="https://graphql.org">GraphQL</StyledLink>,{" "}
       <StyledLink href="https://www.postgresql.org/">PostgreSQL</StyledLink>,{" "}
       <StyledLink href="https://nodejs.org/en/">Node.js</StyledLink>,{" "}
       <StyledLink href="https://reactjs.org/">React</StyledLink>,{" and "}
