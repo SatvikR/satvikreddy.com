@@ -5,7 +5,7 @@ export const Header: React.FC = () => {
   return (
     <header>
       <Text
-        bgGradient="linear(to-l, purple.300, cyan.400)"
+        bgGradient="linear(to-l, cyan.400, blue.400)"
         bgClip="text"
         fontSize="6xl"
         fontWeight="extrabold"
