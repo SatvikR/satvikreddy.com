@@ -24,7 +24,7 @@ export const Projects: React.FC<ProjectsProps> = ({}) => {
           <Project
             name="Homework Help"
             desc="A platform made for students to get help on homework and assignments. Students can share questions, answer questions, and give feedback."
-            tech={["typescript", "node", "react", "next"]}
+            tech={["typescript", "node", "react", "next", "ec2", "s3"]}
             href="https://github.com/SatvikR/homework-help"
           />
         </WrapItem>
@@ -41,7 +41,15 @@ export const Projects: React.FC<ProjectsProps> = ({}) => {
             name="Liproduce"
             desc="A platform made for restaruant owners to easily order high quality produce from reliable producers"
             href="https://github.com/SatvikR/liproduce"
-            tech={["graphql", "react", "typescript", "node"]}
+            tech={[
+              "graphql",
+              "react",
+              "typescript",
+              "node",
+              "ec2",
+              "s3",
+              "lambda",
+            ]}
           />
         </WrapItem>
         <WrapItem>
@@ -57,7 +65,7 @@ export const Projects: React.FC<ProjectsProps> = ({}) => {
             name="Lisolver"
             desc="An open source equation solver and simplifier."
             href="https://github.com/SatvikR/lisolver"
-            tech={["flask", "next", "react", "typescript"]}
+            tech={["flask", "next", "react", "typescript", "ec2"]}
           />
         </WrapItem>
         <WrapItem>
@@ -65,7 +73,7 @@ export const Projects: React.FC<ProjectsProps> = ({}) => {
             name="Instagram Clone"
             desc="An open source implentation of Instagram"
             href="https://github.com/SatvikR/instagram-clone"
-            tech={["typescript", "node", "react", "firebase"]}
+            tech={["typescript", "node", "react", "firebase", "ec2"]}
           />
         </WrapItem>
       </Wrap>

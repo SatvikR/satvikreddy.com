@@ -13,6 +13,9 @@ export type Technology =
   | "firebase"
   | "python"
   | "javascript"
+  | "ec2"
+  | "s3"
+  | "lambda"
   | "flask";
 
 export const links: Map<Technology, string> = new Map();
@@ -27,6 +30,9 @@ links.set("flask", "https://flask.palletsprojects.com/");
 links.set("firebase", "https://firebase.google.com/");
 links.set("python", "https://www.python.org/");
 links.set("javascript", "https://www.javascript.com/");
+links.set("ec2", "https://aws.amazon.com/ec2/");
+links.set("s3", "https://aws.amazon.com/s3/");
+links.set("lambda", "https://aws.amazon.com/lambda/");
 
 export interface ProjectProps {
   name: string;
@@ -38,7 +44,7 @@ export interface ProjectProps {
 export const Project: React.FC<ProjectProps> = ({ name, desc, tech, href }) => {
   return (
     <Box
-      maxW={`${(800 - 12 - 12) / 4 + 15}px`}
+      maxW={`${(800 - 12 - 12) / 3 + 90 - (297.66 - 32 * 7)}px`}
       w="100%"
       borderWidth="2px"
       p={4}
