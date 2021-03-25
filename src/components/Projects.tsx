@@ -1,7 +1,8 @@
 import { Wrap, WrapItem } from "@chakra-ui/layout";
-import { Heading } from "@chakra-ui/react";
+import { Heading, Text } from "@chakra-ui/react";
 import React from "react";
 import { Project } from "./Project";
+import { StyledLink } from "./StyledLink";
 
 export interface ProjectsProps {}
 
@@ -68,6 +69,10 @@ export const Projects: React.FC<ProjectsProps> = ({}) => {
           />
         </WrapItem>
       </Wrap>
+      <Text mb={4} fontSize="lg">
+        You can find more of my projects on my{" "}
+        <StyledLink href="https://github.com/SatvikR">Github</StyledLink>
+      </Text>
     </>
   );
 };

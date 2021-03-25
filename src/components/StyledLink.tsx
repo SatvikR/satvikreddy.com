@@ -4,7 +4,7 @@ import React from "react";
 
 export const StyledLink: React.FC<LinkProps> = ({ children, ...props }) => {
   return (
-    <Link color="teal.400" {...props}>
+    <Link color="purple.400" {...props}>
       {children}
     </Link>
   );
