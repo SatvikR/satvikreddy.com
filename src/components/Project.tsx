@@ -64,7 +64,7 @@ export const Project: React.FC<ProjectProps> = ({ name, desc, tech, href }) => {
         {tech.map((e, i) => {
           return (
             <Link key={i} href={links.get(e)}>
-              <Image src={`/icons/${e}.svg`} boxSize="32px" mx={1} />
+              <Image src={`/icons/${e}.svg`} boxSize="32px" mx={1} alt={e} />
             </Link>
           );
         })}
