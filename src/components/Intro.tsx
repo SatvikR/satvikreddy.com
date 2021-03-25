@@ -5,8 +5,8 @@ import { Text } from "@chakra-ui/react";
 export const Intro: React.FC = () => {
   return (
     <Text my={4} fontSize="lg">
-      I'm a fullstack web developer and freshman in highschool from the Bay
-      Area. Currently, my favorite technologies are{" "}
+      I'm a fullstack web developer and freshman at Aragon High School from the
+      Bay Area. Currently, my favorite technologies are{" "}
       <StyledLink href="https://golang.org/">Golang</StyledLink>,{" "}
       <StyledLink href="https://www.typescriptlang.org/">Typescript</StyledLink>
       , <StyledLink href="https://graphql.org">GraphQL</StyledLink>,{" "}
