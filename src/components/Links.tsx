@@ -6,7 +6,7 @@ export const Links: React.FC = () => {
   return (
     <>
       <Text fontSize="lg">Find me online here: </Text>
-      <UnorderedList>
+      <UnorderedList mb={4}>
         <ListItem>
           <StyledLink href="https://github.com/SatvikR" fontSize="lg">
             Github

@@ -3,6 +3,7 @@ import React from "react";
 import { Header } from "../components/Header";
 import { Intro } from "../components/Intro";
 import { Links } from "../components/Links";
+import { Projects } from "../components/Projects";
 
 const Index = () => {
   return (
@@ -12,6 +13,8 @@ const Index = () => {
       <main>
         <Intro />
         <Links />
+        <hr />
+        <Projects />
       </main>
     </Box>
   );

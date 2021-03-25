@@ -1,0 +1,5 @@
+# satvikreddy.com/robots.txt
+# Preparing for the inevitable AI takedown of the planet
+
+User-agent: *
+Disallow: /icons/

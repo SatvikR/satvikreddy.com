@@ -5,10 +5,12 @@ export const Header: React.FC = () => {
   return (
     <header>
       <Heading
-        bgGradient="linear(to-l, cyan.400, blue.400)"
+        bgGradient="linear(to-l, purple.400, cyan.600)"
         bgClip="text"
         fontSize="6xl"
         fontWeight="extrabold"
+        pb={4}
+        mt={4}
       >
         Satvik Reddy
       </Heading>
