@@ -64,7 +64,7 @@ export const Project: React.FC<ProjectProps> = ({ name, desc, tech, href }) => {
         <Text mb={2}>{desc}</Text>
       </LinkBox>
       <Text fontWeight="bold" mb={2}>
-        Technologies:
+        Technologies Used:
       </Text>
       <Flex>
         {tech.map((e, i) => {

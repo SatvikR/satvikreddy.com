@@ -16,6 +16,7 @@ export const Projects: React.FC<ProjectsProps> = ({}) => {
         fontWeight="extrabold"
         my={4}
         pb={3}
+        textAlign="center"
       >
         Projects
       </Heading>
