@@ -1,5 +1,6 @@
-import { Box, Link } from "@chakra-ui/layout";
-import { Flex, Text, Image } from "@chakra-ui/react";
+import { ExternalLinkIcon } from "@chakra-ui/icons";
+import { LinkBox, Link, LinkOverlay } from "@chakra-ui/layout";
+import { Flex, Text, Image, Box } from "@chakra-ui/react";
 import React from "react";
 
 export type Technology =
@@ -30,13 +31,14 @@ links.set("javascript", "https://www.javascript.com/");
 export interface ProjectProps {
   name: string;
   desc: string;
+  href: string;
   tech: Technology[];
 }
 
-export const Project: React.FC<ProjectProps> = ({ name, desc, tech }) => {
+export const Project: React.FC<ProjectProps> = ({ name, desc, tech, href }) => {
   return (
     <Box
-      maxW={`${(800 - 12 - 12) / 4}px`}
+      maxW={`${(800 - 12 - 12) / 4 + 15}px`}
       w="100%"
       borderWidth="2px"
       p={4}
@@ -47,11 +49,14 @@ export const Project: React.FC<ProjectProps> = ({ name, desc, tech }) => {
       }}
     >
       <Text fontWeight="bold" mb={2} fontSize="lg">
-        {name}
+        <Link href={href} target="_">
+          {name}
+          <ExternalLinkIcon w={3} h={3} color="gray.400" ml={1} mb={1} />
+        </Link>
       </Text>
-      <Box minH="180px">
+      <LinkBox minH="180px">
         <Text mb={2}>{desc}</Text>
-      </Box>
+      </LinkBox>
       <Text fontWeight="bold" mb={2}>
         Technologies:
       </Text>
