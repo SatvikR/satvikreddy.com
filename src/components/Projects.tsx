@@ -66,7 +66,7 @@ export const Projects: React.FC<ProjectsProps> = ({}) => {
             name="Lisolver"
             desc="An open source equation solver and simplifier."
             href="https://github.com/SatvikR/lisolver"
-            tech={["flask", "next", "react", "typescript", "ec2"]}
+            tech={["flask", "python", "next", "react", "typescript", "ec2"]}
           />
         </WrapItem>
         <WrapItem>
