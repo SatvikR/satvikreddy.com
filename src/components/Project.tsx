@@ -1,6 +1,6 @@
 import { ExternalLinkIcon } from "@chakra-ui/icons";
-import { LinkBox, Link, LinkOverlay } from "@chakra-ui/layout";
-import { Flex, Text, Image, Box } from "@chakra-ui/react";
+import { Link, LinkBox } from "@chakra-ui/layout";
+import { Box, Flex, Image, Text } from "@chakra-ui/react";
 import React from "react";
 
 export type Technology =

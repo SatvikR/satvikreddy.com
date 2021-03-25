@@ -1,5 +1,5 @@
 import { Wrap, WrapItem } from "@chakra-ui/layout";
-import { Heading, Link } from "@chakra-ui/react";
+import { Heading } from "@chakra-ui/react";
 import React from "react";
 import { Project } from "./Project";
 
