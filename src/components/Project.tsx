@@ -49,7 +49,7 @@ export const Project: React.FC<ProjectProps> = ({ name, desc, tech, href }) => {
       }}
     >
       <Text fontWeight="bold" mb={2} fontSize="lg">
-        <Link href={href} target="_">
+        <Link href={href} isExternal>
           {name}
           <ExternalLinkIcon w={3} h={3} color="gray.400" ml={1} mb={1} />
         </Link>
@@ -63,7 +63,7 @@ export const Project: React.FC<ProjectProps> = ({ name, desc, tech, href }) => {
       <Flex>
         {tech.map((e, i) => {
           return (
-            <Link key={i} href={links.get(e)}>
+            <Link key={i} href={links.get(e)} isExternal>
               <Image src={`/icons/${e}.svg`} boxSize="32px" mx={1} alt={e} />
             </Link>
           );
