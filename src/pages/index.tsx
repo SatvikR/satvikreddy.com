@@ -26,7 +26,7 @@ const Index = () => {
         </main>
       </Box>
       <Box borderTopWidth="1px" px={4} textAlign="center" py={6}>
-        This work is licensed under a{" "}
+        The content on this page is licensed under a{" "}
         <StyledLink href="https://creativecommons.org/licenses/by-nc-nd/4.0/">
           Creative Commons Attribution-NonCommercial-NoDerivatives 4.0
           International License.
