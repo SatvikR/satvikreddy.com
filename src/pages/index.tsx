@@ -12,10 +12,7 @@ const Index = () => {
     <>
       <Head>
         <title>Satvik Reddy | Software Developer</title>
-        <meta
-          name="description"
-          content="I'm a fullstack web developer and freshman in highschool from the Bay Area."
-        />
+        <meta name="description" content="Information about Satvik Reddy." />
         <script type="application/ld+json"></script>
       </Head>
       <Box maxW="800px" width="100%" mx="auto" px={3} pb={20}>
