@@ -13,6 +13,10 @@ const Index = () => {
       <Head>
         <title>Satvik Reddy | Software Developer</title>
         <meta name="description" content="Information about Satvik Reddy." />
+        <meta
+          name="google-site-verification"
+          content="PMtWkbgB_0hUtxRPqrc_VT95KneHuc0jFWatHJC9D2M"
+        />
         <script type="application/ld+json"></script>
       </Head>
       <Box maxW="800px" width="100%" mx="auto" px={3} pb={20}>
