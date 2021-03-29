@@ -3,3 +3,4 @@
 
 User-agent: *
 Disallow: /icons/
+Disallow: /resume.pdf
