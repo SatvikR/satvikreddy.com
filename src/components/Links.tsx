@@ -8,6 +8,11 @@ export const Links: React.FC = () => {
       <Text fontSize="lg">Find me online here: </Text>
       <UnorderedList mb={4} ml={12}>
         <ListItem>
+          <StyledLink href="/resume.pdf" fontSize="lg">
+            Resume
+          </StyledLink>
+        </ListItem>
+        <ListItem>
           <StyledLink href="https://github.com/SatvikR" fontSize="lg">
             Github
           </StyledLink>
