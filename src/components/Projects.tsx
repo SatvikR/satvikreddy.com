@@ -34,7 +34,7 @@ export const Projects: React.FC<ProjectsProps> = ({}) => {
             name="CyanDB"
             desc="A simple, persistent key-value database written in go."
             href="https://github.com/SatvikR/cyandb"
-            tech={["golang"]}
+            tech={["golang", "websockets"]}
           />
         </WrapItem>
         <WrapItem>
