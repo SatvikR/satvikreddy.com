@@ -49,9 +49,11 @@ export interface ProjectProps {
 }
 
 export const Project: React.FC<ProjectProps> = ({ name, desc, tech, href }) => {
+  const mw = (800 - 12 - 12) / 3 + 90 - (297.66 - 32 * 7);
+
   return (
     <Box
-      maxW={`${(800 - 12 - 12) / 3 + 90 - (297.66 - 32 * 7)}px`}
+      maxW={`${mw}px`}
       w="100%"
       borderWidth="2px"
       p={4}
@@ -67,7 +69,7 @@ export const Project: React.FC<ProjectProps> = ({ name, desc, tech, href }) => {
           <ExternalLinkIcon w={3} h={3} color="gray.400" ml={1} mb={1} />
         </Link>
       </Text>
-      <LinkBox minH="180px">
+      <LinkBox minH="180px" w="239px">
         <Text mb={2}>{desc}</Text>
       </LinkBox>
       <Text fontWeight="bold" mb={2}>
