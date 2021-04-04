@@ -44,9 +44,9 @@ export const Projects: React.FC<ProjectsProps> = ({}) => {
             href="https://github.com/SatvikR/liproduce"
             tech={[
               "graphql",
-              "react",
+              "golang",
               "typescript",
-              "node",
+              "react",
               "ec2",
               "s3",
               "lambda",
