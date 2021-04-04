@@ -32,7 +32,7 @@ export const Projects: React.FC<ProjectsProps> = ({}) => {
         <WrapItem>
           <Project
             name="CyanDB"
-            desc="A simple, persistent key-value database written in go."
+            desc="A lightweight, persistent key-value database written in go."
             href="https://github.com/SatvikR/cyandb"
             tech={["golang", "websockets"]}
           />
@@ -64,17 +64,17 @@ export const Projects: React.FC<ProjectsProps> = ({}) => {
         <WrapItem>
           <Project
             name="Lisolver"
-            desc="An open source equation solver and simplifier."
+            desc="An open-source equation solver and simplifier."
             href="https://github.com/SatvikR/lisolver"
             tech={["flask", "python", "next", "react", "typescript", "ec2"]}
           />
         </WrapItem>
         <WrapItem>
           <Project
-            name="Instagram Clone"
-            desc="An open source implentation of Instagram"
-            href="https://github.com/SatvikR/instagram-clone"
-            tech={["typescript", "node", "react", "firebase", "ec2"]}
+            name="Memoize"
+            desc="A memoization library for C++"
+            href="https://github.com/SatvikR/memoize"
+            tech={["cpp"]}
           />
         </WrapItem>
       </Wrap>
