@@ -39,18 +39,10 @@ export const Projects: React.FC<ProjectsProps> = ({}) => {
         </WrapItem>
         <WrapItem>
           <Project
-            name="Liproduce"
-            desc="A platform made for restaruant owners to easily order high quality produce from reliable producers"
-            href="https://github.com/SatvikR/liproduce"
-            tech={[
-              "graphql",
-              "golang",
-              "typescript",
-              "react",
-              "ec2",
-              "s3",
-              "lambda",
-            ]}
+            name="Instagram Clone"
+            desc="An open source implentation of Instagram"
+            href="https://github.com/SatvikR/instagram-clone"
+            tech={["typescript", "node", "react", "firebase", "ec2"]}
           />
         </WrapItem>
         <WrapItem>
