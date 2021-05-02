@@ -18,6 +18,8 @@ export type Technology =
   | "lambda"
   | "websockets"
   | "cpp"
+  | "c"
+  | "opengl"
   | "flask";
 
 export const links: Map<Technology, string> = new Map();
@@ -35,6 +37,8 @@ links.set("javascript", "https://www.javascript.com/");
 links.set("ec2", "https://aws.amazon.com/ec2/");
 links.set("s3", "https://aws.amazon.com/s3/");
 links.set("lambda", "https://aws.amazon.com/lambda/");
+links.set("c", "https://en.wikipedia.org/wiki/The_C_Programming_Language")
+links.set("opengl", "https://www.opengl.org/")
 links.set("cpp", "https://www.cplusplus.com/");
 links.set(
   "websockets",

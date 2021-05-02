@@ -39,6 +39,14 @@ export const Projects: React.FC<ProjectsProps> = ({}) => {
         </WrapItem>
         <WrapItem>
           <Project
+            name="LCGE"
+            desc="A Lightweight C graphics engine"
+            href="https://github.com/SatvikR/LCGE"
+            tech={["c", "opengl"]}
+          />
+        </WrapItem>
+        <WrapItem>
+          <Project
             name="Instagram Clone"
             desc="An open source implentation of Instagram"
             href="https://github.com/SatvikR/instagram-clone"
@@ -51,14 +59,6 @@ export const Projects: React.FC<ProjectsProps> = ({}) => {
             desc="A memoization library for C++"
             href="https://github.com/SatvikR/memoize"
             tech={["cpp"]}
-          />
-        </WrapItem>
-        <WrapItem>
-          <Project
-            name="Notescribe"
-            desc="An open-source music transcriber made for DVHacks |||"
-            href="https://github.com/SatvikR/notescribe"
-            tech={["flask", "python", "javascript"]}
           />
         </WrapItem>
         <WrapItem>
