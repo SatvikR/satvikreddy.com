@@ -40,7 +40,7 @@ export const Projects: React.FC<ProjectsProps> = ({}) => {
         <WrapItem>
           <Project
             name="LCGE"
-            desc="A Lightweight C graphics engine"
+            desc="A Lightweight 2D game engine written in C"
             href="https://github.com/SatvikR/LCGE"
             tech={["c", "opengl"]}
           />
