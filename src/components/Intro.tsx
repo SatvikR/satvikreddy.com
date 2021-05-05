@@ -8,6 +8,8 @@ export const Intro: React.FC = () => {
       I'm a fullstack web developer and freshman at Aragon High School from the
       Bay Area. Currently, my favorite technologies are{" "}
       <StyledLink href="https://golang.org/">Golang</StyledLink>,{" "}
+      <StyledLink href="https://en.wikipedia.org/wiki/The_C_Programming_Language">C</StyledLink>,{" "}
+      <StyledLink href="https://www.opengl.org/">OpenGL</StyledLink>,{" "}
       <StyledLink href="https://www.typescriptlang.org/">Typescript</StyledLink>
       , <StyledLink href="https://graphql.org">GraphQL</StyledLink>,{" "}
       <StyledLink href="https://www.postgresql.org/">PostgreSQL</StyledLink>,{" "}
