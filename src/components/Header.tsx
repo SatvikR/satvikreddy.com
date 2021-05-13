@@ -15,7 +15,7 @@ export const Header: React.FC = () => {
         Satvik Reddy
       </Heading>
       <Text fontSize="xl" my={4}>
-        Software/Web developer
+        Software engineer/Web developer
       </Text>
     </header>
   );
