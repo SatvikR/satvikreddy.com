@@ -23,10 +23,17 @@ export const Projects: React.FC<ProjectsProps> = ({}) => {
       <Wrap justify="space-evenly">
         <WrapItem>
           <Project
-            name="Homework Help"
-            desc="A platform made for students to get help on homework and assignments. Students can share questions, answer questions, and give feedback."
-            tech={["typescript", "node", "react", "next", "ec2", "s3"]}
-            href="https://github.com/SatvikR/homework-help"
+            name="LiveAssist"
+            desc="A knowledge sharing platform made for programmers. Programmers can talk to each other with live websocket-based messaging and get the help they need."
+            href="https://github.com/SatvikR/liveassist"
+            tech={[
+              "golang",
+              "websockets",
+              "typescript",
+              "react",
+              "next",
+              "ec2",
+            ]}
           />
         </WrapItem>
         <WrapItem>
@@ -55,18 +62,18 @@ export const Projects: React.FC<ProjectsProps> = ({}) => {
         </WrapItem>
         <WrapItem>
           <Project
-            name="Memoize"
-            desc="A memoization library for C++"
-            href="https://github.com/SatvikR/memoize"
-            tech={["cpp"]}
+            name="Homework Help"
+            desc="A platform made for students to get help on homework and assignments. Students can share questions, answer questions, and give feedback."
+            tech={["typescript", "node", "react", "next", "ec2", "s3"]}
+            href="https://github.com/SatvikR/homework-help"
           />
         </WrapItem>
         <WrapItem>
           <Project
-            name="Lisolver"
-            desc="An open-source equation solver and simplifier."
-            href="https://github.com/SatvikR/lisolver"
-            tech={["flask", "python", "next", "react", "typescript", "ec2"]}
+            name="Memoize"
+            desc="A memoization library for C++"
+            href="https://github.com/SatvikR/memoize"
+            tech={["cpp"]}
           />
         </WrapItem>
       </Wrap>
